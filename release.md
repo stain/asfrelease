@@ -117,6 +117,68 @@ contain only [appropriately](/legal/resolved#category-a)
 in the [foundation website](/) and in the [release
 licensing FAQ](#license).
 
+## Licensing Documentation
+
+Q. If An Artifact Contains Code Under Several Licenses, Should It Contain Several License Files?
+
+When an artifact contains code under several licenses, the LICENSE file
+should contain details of all these licenses. For each component which is
+not Apache licensed, details of the component should be appended to the LICENSE file.
+The component license itself may also be appended, or it may be stored elsewhere in the
+artifact with a pointer to it from the LICENSE file, e.g. if the license is long.
+
+[Here](https://svn.apache.org/repos/asf/httpd/httpd/trunk/LICENSE) is an
+example showing appended licences.
+
+Please read [Applying the Apache License, Version
+2.0](apply-license) and check the [Apache Licenses](/licenses/) and 
+[Apache Legal](/legal/) pages for current information.
+
+Q. Which Files Must Contain An ASF License Text?
+
+Every source file must contain the appropriate ASF License text.
+
+Q. Is A Full Copy Of The License Required In Each Source File?
+
+In short, only one copy of the license is needed per distribution. This
+full license file should be placed at the root of the distribution in a
+file named LICENSE. For software developed at the ASF, each source file
+need only contain the [boilerplate
+notice](http://www.apache.org/legal/src-headers.html#headers).
+
+Q. Where Is The Right Place For Attribution Notices?
+
+The new license allows for a NOTICE file that contains such attribution
+notices (including the Apache attribution notice). Read
+[this](http://apache.org/legal/src-headers.html#notice).
+
+Any attribution notices contained within existing source files should be
+moved into the file. The NOTICE file must included within the distributed
+next to the LICENSE file.
+
+Ensure that the standard ASF attribution notice is contained in any new
+NOTICE file created.
+
+Q. What Content Is Appropriate For The NOTICE File?
+
+Read [this](http://apache.org/legal/src-headers.html#notice).
+
+Only mandatory information required by the product's software licenses. Not
+suitable for normal documentation.
+
+Q. Is A NOTICE File Required For Pure ASF Code?
+
+Yes! The NOTICE file must contain the standard ASF attribution, given
+below:
+
+    This product includes software developed at
+    The Apache Software Foundation (http://www.apache.org/).
+
+N.B. Unfortunately versions of this document prior to 2013-01-30 (r1440650) were incorrect, as they used the phrase:
+"developed by" instead of "developed at".
+The official wording was established in section 6C of the
+[board minutes for May 24 2006](http://www.apache.org/foundation/records/minutes/2006/board_minutes_2006_05_24.txt)
+
 ## Release approval
 
 Votes on whether a package is ready to be released use
