@@ -99,6 +99,17 @@ contain only [appropriately](/legal/resolved#category-a)
 in the [foundation website](/) and in the [release
 licensing FAQ](#license).
 
+## Release approval
+
+Votes on whether a package is ready to be released use
+[majority approval](http://www.apache.org/foundation/glossary.html#MajorityApproval) --
+i.e., at least three PMC members must vote affirmatively
+for release, and there must be more positive than negative votes.
+Releases may not be vetoed. Before voting +1 PMC members are required
+to download the signed source code package, compile it as provided, and test the
+resulting executable on their own platform, along with also verifying that the
+package meets the requirements of the ASF policy on releases.
+
 ## Unreleased Source materials
 
 Releases are, by definition, anything that is published beyond the group
