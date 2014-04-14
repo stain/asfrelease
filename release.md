@@ -80,6 +80,26 @@ Nothing in this section is meant to supersede the requirements defined
 [here](#what) and [here](#what-must-every-release-contain) that all
 releases be primarily based on a signed source package.
 
+### Release Verification
+
+Q. Must releases be built on hardware owned and controlled by the committer?
+
+Strictly speaking, releases must be **[verified](https://svn.apache.org/repos/private/committers/tools/releases/compare_dirs.pl)**
+on hardware owned and controlled by the committer.  That means hardware the
+committer has  physical possession and control of and exclusively full
+administrative/superuser access to.  That's because only such hardware is
+qualified to hold a PGP private key, and the release should be verified on the
+machine the private key lives on or on a machine as trusted as that.
+
+Practically speaking, when a release consists of anything beyond an archive
+(e.g., tarball or zip file) of a source control tag, the only practical way to
+validate that archive is to build it locally; manually inspecting generated
+files (especially binary files) is not feasible.  So, basically, "Yes".
+
+*Note: This answer refers to the process used to produce a release artifact
+from a source control tag.  It does not refer to testing that artifact for
+technical quality.*
+
 ### Release signing
 
 The source package must be
