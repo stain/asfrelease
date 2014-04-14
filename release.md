@@ -62,6 +62,24 @@ binary/bytecode package must have the same version number as the source
 release and may only add binary/bytecode files that are the result of
 compiling that version of the source code release.
 
+Q. What Are The Requirements To Distribute Other Artifacts In Addition To The Source Package?
+
+ASF releases typically contain additional material together with the source
+package. This material may include documentation concerning the release but
+must contain LICENSE and NOTICE files. As mentioned above, these artifacts
+must be signed by a committer with a detached signature if they are to be
+placed in the project's distribution directory.
+
+Again, these artifacts may be distributed only if they contain LICENSE and
+NOTICE files. For example, the Java artifact format is based on a
+compressed directory structure and those projects wishing to distribute
+jars must place LICENSE and NOTICE files in the META-INF directory within
+the jar.
+
+Nothing in this section is meant to supersede the requirements defined
+[here](#what) and [here](#what-must-every-release-contain) that all
+releases be primarily based on a signed source package.
+
 ### Release signing
 
 The source package must be
