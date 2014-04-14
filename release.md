@@ -74,6 +74,14 @@ prior to release.
 
 ## Distribution
 
+a release isn't 'released' until the contents are in the project's
+distribution directory, which is a subdirectory of `www.apache.org/dist/`.
+in addition to the distribution directory, project that use maven or
+a related build tool sometimes place their
+releases on `repository.apache.org` beside some convenience binaries.
+the distribution directory is required,
+while the repository system is an optional convenience.
+
 Note that the PMC is responsible for all artifacts in their distribution
 directory, which is a subdirectory of `www.apache.org/dist/` ; and all
 artifacts placed in their directory must be signed by a committer,
