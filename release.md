@@ -27,6 +27,49 @@ and the [design goals of this policy](mirrors).
 
 [TOC]
 
+----------------
+
+# Release Policy (DRAFT) # {#policy}
+
+## Artifacts
+
+### Source packages
+
+Every ASF release **must** contain a source package, which must be
+sufficient for a user to build and test the release provided they have
+access to the appropriate platform and tools.
+
+### Release signing
+
+The source package must be
+[cryptographically signed](/dev/release-signing.html) by the Release
+Manager with a detached signature; and that package together with its
+signature must be tested prior to voting +1 for release. Folks who vote +1
+for release may offer their own cryptographic signature to be concatenated
+with the detached signature file (at the Release Manager's discretion)
+prior to release.
+
+## Distribution
+
+Note that the PMC is responsible for all artifacts in their distribution
+directory, which is a subdirectory of `www.apache.org/dist/` ; and all
+artifacts placed in their directory must be signed by a committer,
+preferably by a PMC member. It is also necessary for the PMC to ensure that
+the source package is sufficient to build any binary artifacts associated
+with the release.
+
+## Licensing
+
+Every ASF release **must** comply with ASF licensing policy. This
+requirement is of utmost importance and an audit should be performed before
+any full release is created. In particular, every artifact distributed must
+contain only [appropriately](/legal/resolved#category-a)
+[licensed](/legal/resolved#category-x) code. More information can be found
+in the [foundation website](/) and in the [release
+licensing FAQ](#license).
+
+----------------
+
 # Release Questions # {#releases}
 
 ## Why Do We Need a Foundation-Wide Policy? ## {#why}
