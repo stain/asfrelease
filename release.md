@@ -107,6 +107,15 @@ preferably by a PMC member. It is also necessary for the PMC to ensure that
 the source package is sufficient to build any binary artifacts associated
 with the release.
 
+### Archival
+
+Q. How Is An Old Release Moved To The Archives?
+
+`/www.apache.org/dist` is automatically archived. Therefore, a copy of an
+official release will already exist in the archives. To move a release to
+the archives, just delete the copy in `/www.apache.org/dist`. Remember to
+update any links from the download page.
+
 ## Licensing
 
 Every ASF release **must** comply with ASF licensing policy. This
