@@ -239,29 +239,6 @@ to download the signed source code package, compile it as provided, and test the
 resulting executable on their own platform, along with also verifying that the
 package meets the requirements of the ASF policy on releases.
 
-## Unreleased Source materials
-
-Releases are, by definition, anything that is published beyond the group
-that owns it. In our case, that means any publication outside the group of
-people on the product dev list. If the general public is being instructed
-to download a package, then that package has been released. Each PMC must
-obey the ASF requirements on [approving any release](#approving-a-release). 
-How you label the package is a secondary issue, described below.
-
-During the process of developing software and preparing a release, various
-packages are made available to the developer community for testing
-purposes. **Do not include any links on the project website that might
-encourage non-developers to download and use nightly builds, snapshots,
-release candidates, or any other similar package.** The only people who are
-supposed to know about such packages are the people following the dev list
-(or searching its archives) and thus aware of the conditions placed on the
-package. If you find that the general public are downloading such test
-packages, then remove them.
-
-Under no circumstances are unapproved builds a substitute for releases. If
-this policy seems inconvenient, then release more often. Proper release
-management is a key aspect of Apache software development.
-
 ## Changes
 
 Changes to Release Policy must be approved by Legal Affairs.
