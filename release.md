@@ -36,12 +36,12 @@ and the [design goals of this policy](mirrors).
 Generically, a release is anything that is published beyond the group
 that owns it. In our case, that means any publication outside the group of
 people on the product dev list. If the general public is being instructed
-to download a package, then that package has been released. Each PMC must
+to download a package, then that package has been released. Each PMC MUST
 obey the ASF requirements on [approving any release](#approving-a-release). 
 
 During the process of developing software and preparing a release, various
 packages are made available to the developer community for testing
-purposes. **Do not include any links on the project website that might
+purposes. **Projects MUST NOT include any links on the project website that might
 encourage non-developers to download and use nightly builds, snapshots,
 release candidates, or any other similar package.** The only people who are
 supposed to know about such packages are the people following the dev list
