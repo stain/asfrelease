@@ -63,18 +63,6 @@ binary/bytecode package must have the same version number as the source
 release and may only add binary/bytecode files that are the result of
 compiling that version of the source code release.
 
-## Definitions
-
-The key words "MUST", "MUST NOT", "REQUIRED", "SHALL", "SHALL NOT", "SHOULD", "SHOULD NOT",
-"RECOMMENDED",  "MAY", and "OPTIONAL" in this document are to be interpreted as described in RFC
-2119.
-
-The key words "License", "Source" and "Object" are to be interpreted as defined in the [Apache
-License 2.0](licenses/LICENSE-2.0.html).
-
-"Development Group" shall mean those individuals who interact on the the Apache "dev" email list
-where the product's development is discussed.
-
 ## Artifacts
 
 ### Source packages
