@@ -31,6 +31,38 @@ and the [design goals of this policy](mirrors).
 
 # Release Policy (DRAFT) # {#policy}
 
+## Definition of "release"
+
+Releases are, by definition, anything that is published beyond the group
+that owns it. In our case, that means any publication outside the group of
+people on the product dev list. If the general public is being instructed
+to download a package, then that package has been released. Each PMC must
+obey the ASF requirements on [approving any release](#approving-a-release). 
+How you label the package is a secondary issue, described below.
+
+During the process of developing software and preparing a release, various
+packages are made available to the developer community for testing
+purposes. **Do not include any links on the project website that might
+encourage non-developers to download and use nightly builds, snapshots,
+release candidates, or any other similar package.** The only people who are
+supposed to know about such packages are the people following the dev list
+(or searching its archives) and thus aware of the conditions placed on the
+package. If you find that the general public are downloading such test
+packages, then remove them.
+
+Under no circumstances are unapproved builds a substitute for releases. If
+this policy seems inconvenient, then release more often. Proper release
+management is a key aspect of Apache software development.
+
+The Apache Software Foundation produces open source software. All releases
+are in the form of the source materials needed to make changes to the
+software being released. In some cases, binary/bytecode packages are also
+produced as a convenience to users that might not have the appropriate
+tools to build a compiled version of the source. In all such cases, the
+binary/bytecode package must have the same version number as the source
+release and may only add binary/bytecode files that are the result of
+compiling that version of the source code release.
+
 ## Definitions
 
 The key words "MUST", "MUST NOT", "REQUIRED", "SHALL", "SHALL NOT", "SHOULD", "SHOULD NOT",
