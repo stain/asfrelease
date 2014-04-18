@@ -262,6 +262,10 @@ Under no circumstances are unapproved builds a substitute for releases. If
 this policy seems inconvenient, then release more often. Proper release
 management is a key aspect of Apache software development.
 
+## Changes
+
+Changes to Release Policy must be approved by Legal Affairs.
+
 ----------------
 
 # Release FAQ # {#releases}
