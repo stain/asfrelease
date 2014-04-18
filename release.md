@@ -29,7 +29,7 @@ and the [design goals of this policy](mirrors).
 
 ----------------
 
-# Release Policy (DRAFT) # {#policy}
+# Release Policy # {#policy}
 
 ## Definition of "release"
 
