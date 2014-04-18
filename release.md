@@ -264,7 +264,7 @@ management is a key aspect of Apache software development.
 
 ----------------
 
-# Release Questions # {#releases}
+# Release FAQ # {#releases}
 
 ## Why Do We Need a Foundation-Wide Policy? ## {#why}
 
