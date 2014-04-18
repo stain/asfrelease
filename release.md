@@ -130,32 +130,6 @@ for release may offer their own cryptographic signature to be concatenated
 with the detached signature file (at the Release Manager's discretion)
 prior to release.
 
-## Distribution
-
-A release isn't 'released' until the contents are in the project's
-distribution directory, which is a subdirectory of `www.apache.org/dist/`.
-in addition to the distribution directory, project that use maven or
-a related build tool sometimes place their
-releases on `repository.apache.org` beside some convenience binaries.
-the distribution directory is required,
-while the repository system is an optional convenience.
-
-Note that the PMC is responsible for all artifacts in their distribution
-directory, which is a subdirectory of `www.apache.org/dist/` ; and all
-artifacts placed in their directory must be signed by a committer,
-preferably by a PMC member. It is also necessary for the PMC to ensure that
-the source package is sufficient to build any binary artifacts associated
-with the release.
-
-### Archival
-
-Q. How Is An Old Release Moved To The Archives?
-
-`/www.apache.org/dist` is automatically archived. Therefore, a copy of an
-official release will already exist in the archives. To move a release to
-the archives, just delete the copy in `/www.apache.org/dist`. Remember to
-update any links from the download page.
-
 ## Licensing
 
 Every ASF release **must** comply with ASF licensing policy. This
@@ -238,6 +212,32 @@ Releases may not be vetoed. Before voting +1 PMC members are required
 to download the signed source code package, compile it as provided, and test the
 resulting executable on their own platform, along with also verifying that the
 package meets the requirements of the ASF policy on releases.
+
+## Distribution
+
+A release isn't 'released' until the contents are in the project's
+distribution directory, which is a subdirectory of `www.apache.org/dist/`.
+in addition to the distribution directory, project that use maven or
+a related build tool sometimes place their
+releases on `repository.apache.org` beside some convenience binaries.
+the distribution directory is required,
+while the repository system is an optional convenience.
+
+Note that the PMC is responsible for all artifacts in their distribution
+directory, which is a subdirectory of `www.apache.org/dist/` ; and all
+artifacts placed in their directory must be signed by a committer,
+preferably by a PMC member. It is also necessary for the PMC to ensure that
+the source package is sufficient to build any binary artifacts associated
+with the release.
+
+### Archival
+
+Q. How Is An Old Release Moved To The Archives?
+
+`/www.apache.org/dist` is automatically archived. Therefore, a copy of an
+official release will already exist in the archives. To move a release to
+the archives, just delete the copy in `/www.apache.org/dist`. Remember to
+update any links from the download page.
 
 ## Changes
 
