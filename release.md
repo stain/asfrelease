@@ -52,7 +52,7 @@ package.
 
 ### Source packages
 
-Every ASF release **must** contain a source package, which must be
+Every ASF release MUST contain a source package, which MUST be
 sufficient for a user to build and test the release provided they have
 access to the appropriate platform and tools.
 
@@ -63,29 +63,29 @@ are in the form of the source materials needed to make changes to the
 software being released. In some cases, binary/bytecode packages are also
 produced as a convenience to users that might not have the appropriate
 tools to build a compiled version of the source. In all such cases, the
-binary/bytecode package must have the same version number as the source
-release and may only add binary/bytecode files that are the result of
+binary/bytecode package MUST have the same version number as the source
+release and MUST only add binary/bytecode files that are the result of
 compiling that version of the source code release.
 
 ASF releases typically contain additional material together with the source
-package. This material may include documentation concerning the release but
-must contain LICENSE and NOTICE files.
+package. This material MAY include documentation concerning the release but
+MUST contain LICENSE and NOTICE files.
 For example, the Java artifact format is based on a
 compressed directory structure and those projects wishing to distribute
-jars must place LICENSE and NOTICE files in the META-INF directory within
+jars MUST place LICENSE and NOTICE files in the META-INF directory within
 the jar.
 
 These artifacts
-must be signed by a committer with a detached signature if they are to be
+MUST be signed by a committer with a detached signature if they are to be
 placed in the project's distribution directory.
 
 ### Release signing
 
-The source package must be
+The source package MUST be
 [cryptographically signed](/dev/release-signing.html) by the Release
 Manager with a detached signature; and that package together with its
-signature must be tested prior to voting +1 for release. Folks who vote +1
-for release may offer their own cryptographic signature to be concatenated
+signature MUST be tested prior to voting +1 for release. Folks who vote +1
+for release MAY offer their own cryptographic signature to be concatenated
 with the detached signature file (at the Release Manager's discretion)
 prior to release.
 
