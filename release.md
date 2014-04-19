@@ -70,16 +70,14 @@ compiling that version of the source code release.
 ASF releases typically contain additional material together with the source
 package. This material may include documentation concerning the release but
 must contain LICENSE and NOTICE files.
+For example, the Java artifact format is based on a
+compressed directory structure and those projects wishing to distribute
+jars must place LICENSE and NOTICE files in the META-INF directory within
+the jar.
 
 These artifacts
 must be signed by a committer with a detached signature if they are to be
 placed in the project's distribution directory.
-
-Again, these artifacts may be distributed only if they contain LICENSE and
-NOTICE files. For example, the Java artifact format is based on a
-compressed directory structure and those projects wishing to distribute
-jars must place LICENSE and NOTICE files in the META-INF directory within
-the jar.
 
 ### Release signing
 
