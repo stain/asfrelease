@@ -626,11 +626,7 @@ suitable for normal documentation.
 
 ## Is A NOTICE File Required For Pure ASF Code? ## {#notice-required}
 
-Yes! The NOTICE file must contain the standard ASF attribution, given
-below:
-
-    This product includes software developed at
-    The Apache Software Foundation (http://www.apache.org/).
+See official policy on the [`NOTICE` file](#notice-file).
 
 N.B. Unfortunately versions of this document prior to 2013-01-30 (r1440650) were incorrect, as they used the phrase:
 "developed by" instead of "developed at". 
