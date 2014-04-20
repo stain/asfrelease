@@ -31,7 +31,7 @@ and the [design goals of this policy](mirrors).
 
 # Release Policy # {#policy}
 
-## Definition of "release"
+## Definition of "release" ## {#release-definition}
 
 Generically, a release is anything that is published beyond the group
 that owns it. In our case, that means any publication outside the group of
@@ -48,15 +48,15 @@ supposed to know about such packages are the people following the dev list
 (or searching its archives) and thus aware of the conditions placed on the
 package.
 
-## Artifacts
+## Artifacts ## {#artifacts}
 
-### Source packages
+### Source packages ### {#source-packages}
 
 Every ASF release MUST contain a source package, which MUST be
 sufficient for a user to build and test the release provided they have
 access to the appropriate platform and tools.
 
-### Additional packages
+### Additional packages ### {#additional-packages}
 
 The Apache Software Foundation produces open source software. All releases
 are in the form of the source materials needed to make changes to the
@@ -79,7 +79,7 @@ These artifacts
 MUST be signed by a committer with a detached signature if they are to be
 placed in the project's distribution directory.
 
-### Release signing
+### Release signing ### {#release-signing}
 
 The source package MUST be
 [cryptographically signed](/dev/release-signing.html) by the Release
@@ -89,7 +89,7 @@ for release MAY offer their own cryptographic signature to be concatenated
 with the detached signature file (at the Release Manager's discretion)
 prior to release.
 
-## Licensing
+## Licensing ## {#licensing}
 
 Every ASF release **must** comply with ASF licensing policy. This
 requirement is of utmost importance and an audit should be performed before
@@ -99,9 +99,9 @@ contain only [appropriately](/legal/resolved#category-a)
 in the [foundation website](/) and in the [release
 licensing FAQ](#license).
 
-## Licensing Documentation
+## Licensing Documentation ## {#licensing-documentation}
 
-### The `LICENSE` file
+### The `LICENSE` file ### {#license-file}
 
 Q. Is A Full Copy Of The License Required In Each Source File?
 
@@ -126,7 +126,7 @@ Please read [Applying the Apache License, Version
 2.0](apply-license) and check the [Apache Licenses](/licenses/) and 
 [Apache Legal](/legal/) pages for current information.
 
-### The `NOTICE` file
+### The `NOTICE` file ### {#notice-file}
 
 Q. Where Is The Right Place For Attribution Notices?
 
@@ -161,12 +161,12 @@ N.B. Unfortunately versions of this document prior to 2013-01-30 (r1440650) were
 The official wording was established in section 6C of the
 [board minutes for May 24 2006](http://www.apache.org/foundation/records/minutes/2006/board_minutes_2006_05_24.txt)
 
-### License Headers
+### License Headers ### {#license-headers}
 
 Source files which have been contributed to the ASF under the Apache License
 must contain the appropriate ASF License text.
 
-## Release approval
+## Release approval ## {#release-approval}
 
 Votes on whether a package is ready to be released use
 [majority approval](http://www.apache.org/foundation/glossary.html#MajorityApproval) --
@@ -177,7 +177,7 @@ to download the signed source code package, compile it as provided, and test the
 resulting executable on their own platform, along with also verifying that the
 package meets the requirements of the ASF policy on releases.
 
-### Release Verification
+### Release Verification ### {#release-verification}
 
 Q. Must releases be built on hardware owned and controlled by the committer?
 
@@ -197,7 +197,7 @@ files (especially binary files) is not feasible.  So, basically, "Yes".
 from a source control tag.  It does not refer to testing that artifact for
 technical quality.*
 
-## Distribution
+## Release Distribution ## {#release-distribution}
 
 A release isn't 'released' until the contents are in the project's
 distribution directory, which is a subdirectory of `www.apache.org/dist/`.
@@ -214,7 +214,7 @@ preferably by a PMC member. It is also necessary for the PMC to ensure that
 the source package is sufficient to build any binary artifacts associated
 with the release.
 
-### Archival
+### Release Archival ## {#release-archival}
 
 Q. How Is An Old Release Moved To The Archives?
 
@@ -223,7 +223,7 @@ official release will already exist in the archives. To move a release to
 the archives, just delete the copy in `/www.apache.org/dist`. Remember to
 update any links from the download page.
 
-## Changes
+## Policy Changes ## {#policy-changes}
 
 Changes to Release Policy must be approved by Legal Affairs.
 
