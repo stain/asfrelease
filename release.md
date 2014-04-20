@@ -103,6 +103,14 @@ licensing FAQ](#license).
 
 ### The `LICENSE` file
 
+Q. Is A Full Copy Of The License Required In Each Source File?
+
+In short, only one copy of the license is needed per distribution. This
+full license file should be placed at the root of the distribution in a
+file named LICENSE. For software developed at the ASF, each source file
+need only contain the [boilerplate
+notice](http://www.apache.org/legal/src-headers.html#headers).
+
 Q. If An Artifact Contains Code Under Several Licenses, Should It Contain Several License Files?
 
 When an artifact contains code under several licenses, the LICENSE file
@@ -117,14 +125,6 @@ example showing appended licences.
 Please read [Applying the Apache License, Version
 2.0](apply-license) and check the [Apache Licenses](/licenses/) and 
 [Apache Legal](/legal/) pages for current information.
-
-Q. Is A Full Copy Of The License Required In Each Source File?
-
-In short, only one copy of the license is needed per distribution. This
-full license file should be placed at the root of the distribution in a
-file named LICENSE. For software developed at the ASF, each source file
-need only contain the [boilerplate
-notice](http://www.apache.org/legal/src-headers.html#headers).
 
 ### The `NOTICE` file
 
