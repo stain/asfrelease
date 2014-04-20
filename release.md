@@ -163,9 +163,8 @@ The official wording was established in section 6C of the
 
 ### License Headers
 
-Q. Which Files Must Contain An ASF License Text?
-
-Every source file must contain the appropriate ASF License text.
+Source files which have been contributed to the ASF under the Apache License
+must contain the appropriate ASF License text.
 
 ## Release approval
 
