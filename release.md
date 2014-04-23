@@ -39,6 +39,10 @@ people on the product dev list. If the general public is being instructed
 to download a package, then that package has been released. Each PMC MUST
 obey the ASF requirements on [approving any release](#approving-a-release). 
 
+More narrowly, an official Apache release is one which has been approved in
+accordance with this policy by a PMC acting in its formal capacity as an arm
+of the Foundation.
+
 During the process of developing software and preparing a release, various
 packages are made available to the developer community for testing
 purposes. **Projects MUST NOT include any links on the project website that might
