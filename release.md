@@ -101,6 +101,19 @@ licensing FAQ](#license).
 
 ## Licensing Documentation ## {#licensing-documentation}
 
+Each package MUST provide a `LICENSE` file and a `NOTICE` file which account
+for the package's exact content.  `LICENSE` and `NOTICE` MUST NOT provide
+unnecessary information about materials which are not bundled in the package,
+such as separately downloaded dependencies.
+
+For source packages, `LICENSE` and `NOTICE` MUST be located at the root of the
+distribution.  For additional packages, they MUST be located in the
+distribution format's customary location for licensing materials, such as the
+`META-INF` directory of Java "jar" files.
+
+File extensions SHOULD NOT be used -- i.e. the files SHOULD be named exactly
+`LICENSE` and `NOTICE`.
+
 ### The `LICENSE` file ### {#license-file}
 
 In short, only one copy of the license is needed per distribution. This
