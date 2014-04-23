@@ -43,6 +43,19 @@ More narrowly, an official Apache release is one which has been approved in
 accordance with this policy by a PMC acting in its formal capacity as an arm
 of the Foundation.
 
+## Release approval ## {#release-approval}
+
+Votes on whether a package is ready to be released use
+[majority approval](http://www.apache.org/foundation/glossary.html#MajorityApproval) --
+i.e., at least three PMC members must vote affirmatively
+for release, and there must be more positive than negative votes.
+Releases may not be vetoed. Before voting +1 PMC members are required
+to download the signed source code package, compile it as provided, and test the
+resulting executable on their own platform, along with also verifying that the
+package meets the requirements of the ASF policy on releases.
+
+## Restrictions on unreleased materials ## {#unreleased}
+
 During the process of developing software and preparing a release, various
 packages are made available to the developer community for testing
 purposes. **Projects MUST NOT include any links on the project website that might
@@ -171,17 +184,6 @@ The official wording was established in section 6C of the
 
 Source files which have been contributed to the ASF under the Apache License
 must contain the appropriate ASF License text.
-
-## Release approval ## {#release-approval}
-
-Votes on whether a package is ready to be released use
-[majority approval](http://www.apache.org/foundation/glossary.html#MajorityApproval) --
-i.e., at least three PMC members must vote affirmatively
-for release, and there must be more positive than negative votes.
-Releases may not be vetoed. Before voting +1 PMC members are required
-to download the signed source code package, compile it as provided, and test the
-resulting executable on their own platform, along with also verifying that the
-package meets the requirements of the ASF policy on releases.
 
 ### Release Verification ### {#release-verification}
 
