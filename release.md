@@ -48,9 +48,10 @@ of the Foundation.
 For a release vote to pass, a minimum of three positive votes and more
 positive than negative votes MUST be cast.  Releases may not be vetoed.
 
-Votes cast by PMC members are binding.
+Votes cast by PMC members are binding.  Projects MAY grant binding votes to
+other individuals after consultation with the Board.
 
-Before voting +1 PMC members are required
+Before casting +1 binding votes, individuals are required
 to download the signed source code package, compile it as provided, and test the
 resulting executable on their own platform, along with also verifying that the
 package meets the requirements of the ASF policy on releases.
