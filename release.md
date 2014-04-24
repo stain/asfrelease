@@ -83,7 +83,7 @@ access to the appropriate platform and tools.
 
 ### Release signing ### {#release-signing}
 
-The source package MUST be
+All supplied packages MUST be
 [cryptographically signed](/dev/release-signing.html) by the Release
 Manager with a detached signature.  Folks who vote +1
 for release MAY offer their own cryptographic signature to be concatenated
@@ -110,10 +110,6 @@ For example, the Java artifact format is based on a
 compressed directory structure and those projects wishing to distribute
 jars MUST place LICENSE and NOTICE files in the META-INF directory within
 the jar.
-
-These artifacts
-MUST be signed by a committer with a detached signature if they are to be
-placed in the project's distribution directory.
 
 ## Licensing ## {#licensing}
 
