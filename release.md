@@ -55,6 +55,8 @@ to download the signed source code package, compile it as provided, and test the
 resulting executable on their own platform, along with also verifying that the
 package meets the requirements of the ASF policy on releases.
 
+Release votes SHOULD remain open for at least 72 hours.
+
 ## Publication ## {#publication}
 
 Projects SHALL publish official releases and SHALL NOT publish unreleased
