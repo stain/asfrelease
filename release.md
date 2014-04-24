@@ -62,7 +62,7 @@ materials outside the developer community.
 
 During the process of developing software and preparing a release, various
 packages are made available to the developer community for testing
-purposes. **Projects MUST NOT include any links on the project website that might
+purposes. **Projects MUST NOT take any action that might
 encourage non-developers to download and use nightly builds, snapshots,
 release candidates, or any other similar package.** The only people who are
 supposed to know about such packages are the people following the dev list
