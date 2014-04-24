@@ -34,10 +34,10 @@ and the [design goals of this policy](mirrors).
 ## Definition of "release" ## {#release-definition}
 
 Generically, a release is anything that is published beyond the group
-that owns it.  For an Apache project, that means any publication outside the group of
-people on the product dev list. If the general public is being instructed
-to download a package, then that package has been released. Each PMC MUST
-obey the ASF requirements on [approving any release](#approving-a-release). 
+that owns it.  For an Apache project, that means any publication outside the
+developer community, defined as the subscribers to the product dev list.
+If the general public is being instructed to download a package, then that
+package has been released.
 
 More narrowly, an official Apache release is one which has been approved in
 accordance with this policy by a PMC acting in its formal capacity as an arm
