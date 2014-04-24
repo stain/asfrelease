@@ -80,6 +80,16 @@ Every ASF release MUST contain one or more source packages, which MUST be
 sufficient for a user to build and test the release provided they have
 access to the appropriate platform and tools.
 
+### Release signing ### {#release-signing}
+
+The source package MUST be
+[cryptographically signed](/dev/release-signing.html) by the Release
+Manager with a detached signature; and that package together with its
+signature MUST be tested prior to voting +1 for release. Folks who vote +1
+for release MAY offer their own cryptographic signature to be concatenated
+with the detached signature file (at the Release Manager's discretion)
+prior to release.
+
 ### Additional packages ### {#additional-packages}
 
 The Apache Software Foundation produces open source software. All releases
@@ -102,16 +112,6 @@ the jar.
 These artifacts
 MUST be signed by a committer with a detached signature if they are to be
 placed in the project's distribution directory.
-
-### Release signing ### {#release-signing}
-
-The source package MUST be
-[cryptographically signed](/dev/release-signing.html) by the Release
-Manager with a detached signature; and that package together with its
-signature MUST be tested prior to voting +1 for release. Folks who vote +1
-for release MAY offer their own cryptographic signature to be concatenated
-with the detached signature file (at the Release Manager's discretion)
-prior to release.
 
 ## Licensing ## {#licensing}
 
