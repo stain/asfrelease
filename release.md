@@ -52,9 +52,10 @@ Votes cast by PMC members are binding.  Projects MAY grant binding votes to
 other individuals after consultation with the Board.
 
 Before casting +1 binding votes, individuals are required
-to download the signed source code package, compile it as provided, and test the
-resulting executable on their own platform, along with also verifying that the
-package meets the requirements of the ASF policy on releases.
+to download the signed source code package onto their own hardware, compile it
+as provided, and test the resulting executable on their own platform, along
+with also validating cryptographic signatures and verifying that the package
+meets the requirements of the ASF policy on releases.
 
 Release votes SHOULD remain open for at least 72 hours.
 
@@ -84,8 +85,7 @@ access to the appropriate platform and tools.
 
 The source package MUST be
 [cryptographically signed](/dev/release-signing.html) by the Release
-Manager with a detached signature; and that package together with its
-signature MUST be tested prior to voting +1 for release. Folks who vote +1
+Manager with a detached signature.  Folks who vote +1
 for release MAY offer their own cryptographic signature to be concatenated
 with the detached signature file (at the Release Manager's discretion)
 prior to release.
@@ -191,26 +191,6 @@ The official wording was established in section 6C of the
 
 Source files which have been contributed to the ASF under the Apache License
 must contain the appropriate ASF License text.
-
-### Release Verification ### {#release-verification}
-
-Q. Must releases be built on hardware owned and controlled by the committer?
-
-Strictly speaking, releases must be **[verified](https://svn.apache.org/repos/private/committers/tools/releases/compare_dirs.pl)**
-on hardware owned and controlled by the committer.  That means hardware the
-committer has  physical possession and control of and exclusively full
-administrative/superuser access to.  That's because only such hardware is
-qualified to hold a PGP private key, and the release should be verified on the
-machine the private key lives on or on a machine as trusted as that.
-
-Practically speaking, when a release consists of anything beyond an archive
-(e.g., tarball or zip file) of a source control tag, the only practical way to
-validate that archive is to build it locally; manually inspecting generated
-files (especially binary files) is not feasible.  So, basically, "Yes".
-
-*Note: This answer refers to the process used to produce a release artifact
-from a source control tag.  It does not refer to testing that artifact for
-technical quality.*
 
 ## Release Distribution ## {#release-distribution}
 
