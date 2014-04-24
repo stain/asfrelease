@@ -55,7 +55,10 @@ to download the signed source code package, compile it as provided, and test the
 resulting executable on their own platform, along with also verifying that the
 package meets the requirements of the ASF policy on releases.
 
-## Restrictions on unreleased materials ## {#unreleased}
+## Publication ## {#publication}
+
+Projects SHALL publish official releases and SHALL NOT publish unreleased
+materials outside the developer community.
 
 During the process of developing software and preparing a release, various
 packages are made available to the developer community for testing
