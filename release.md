@@ -103,14 +103,6 @@ package MUST have the same version number as the source release and MUST only
 add binary/bytecode files that are the result of compiling that version of the
 source code release.
 
-ASF releases typically contain additional material together with the source
-package. This material MAY include documentation concerning the release but
-MUST contain LICENSE and NOTICE files.
-For example, the Java artifact format is based on a
-compressed directory structure and those projects wishing to distribute
-jars MUST place LICENSE and NOTICE files in the META-INF directory within
-the jar.
-
 ## Licensing ## {#licensing}
 
 Every ASF release **must** comply with ASF licensing policy. This
