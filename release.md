@@ -90,16 +90,18 @@ for release MAY offer their own cryptographic signature to be concatenated
 with the detached signature file (at the Release Manager's discretion)
 prior to release.
 
-### Additional packages ### {#additional-packages}
+### Compiled packages ### {#compiled-packages}
 
 The Apache Software Foundation produces open source software. All releases
 are in the form of the source materials needed to make changes to the
-software being released. In some cases, binary/bytecode packages are also
-produced as a convenience to users that might not have the appropriate
-tools to build a compiled version of the source. In all such cases, the
-binary/bytecode package MUST have the same version number as the source
-release and MUST only add binary/bytecode files that are the result of
-compiling that version of the source code release.
+software being released.
+
+As a convenience to users that might not have the appropriate tools to build a
+compiled version of the source, binary/bytecode packages MAY be distributed
+alongside official Apache releases.  In all such cases, the binary/bytecode
+package MUST have the same version number as the source release and MUST only
+add binary/bytecode files that are the result of compiling that version of the
+source code release.
 
 ASF releases typically contain additional material together with the source
 package. This material MAY include documentation concerning the release but
