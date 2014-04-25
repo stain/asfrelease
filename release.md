@@ -153,6 +153,13 @@ header](http://www.apache.org/legal/src-headers.html#headers).
 
 ## Release Distribution ## {#release-distribution}
 
+Once approved, all artifacts MUST be uploaded to the project's directory
+within the canonical Apache distribution channel, `www.apache.org/dist/`.
+
+Projects SHOULD maintain only the artifacts for the most recent point release
+of each maintained branch in their distribution directory, and MUST prune old
+artifacts from time to time.
+
 A release isn't 'released' until the contents are in the project's
 distribution directory, which is a subdirectory of `www.apache.org/dist/`.
 in addition to the distribution directory, project that use maven or
