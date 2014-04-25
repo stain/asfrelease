@@ -128,10 +128,6 @@ File extensions SHOULD NOT be used -- i.e. the files SHOULD be named exactly
 
 ### The `LICENSE` file ### {#license-file}
 
-In short, only one copy of the license is needed per distribution. This
-full license file should be placed at the root of the distribution in a
-file named LICENSE.
-
 When an artifact contains code under several licenses, the LICENSE file
 should contain details of all these licenses. For each component which is
 not Apache licensed, details of the component should be appended to the LICENSE file.
