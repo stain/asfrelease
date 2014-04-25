@@ -164,11 +164,9 @@ artifacts from time to time.
 The PMC is responsible for the project distribution directory and MUST be able
 to account for its entire contents.
 
-in addition to the distribution directory, project that use maven or
-a related build tool sometimes place their
-releases on `repository.apache.org` beside some convenience binaries.
-the distribution directory is required,
-while the repository system is an optional convenience.
+After uploading to the canonical distribution channel, the project (or anyone
+else) MAY redistribute the artifacts in accordance with their licensing
+through other channels.
 
 ### Release Archival ## {#release-archival}
 
