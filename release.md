@@ -139,38 +139,11 @@ package with a pointer to it from the LICENSE file, e.g. if the license is long.
 
 ### The `NOTICE` file ### {#notice-file}
 
-Q. Where Is The Right Place For Attribution Notices?
+The `NOTICE` file must conform to the requirements of [Apache licensing
+policy](http://apache.org/legal/src-headers.html#notice).
 
-The new license allows for a NOTICE file that contains such attribution
-notices (including the Apache attribution notice). Read
-[this](http://apache.org/legal/src-headers.html#notice).
-
-Any attribution notices contained within existing source files should be
-moved into the file. The NOTICE file must included within the distributed
-next to the LICENSE file.
-
-Ensure that the standard ASF attribution notice is contained in any new
-NOTICE file created.
-
-Q. What Content Is Appropriate For The NOTICE File?
-
-Read [this](http://apache.org/legal/src-headers.html#notice).
-
-Only mandatory information required by the product's software licenses. Not
-suitable for normal documentation.
-
-Q. Is A NOTICE File Required For Pure ASF Code?
-
-Yes! The NOTICE file must contain the standard ASF attribution, given
-below:
-
-    This product includes software developed at
-    The Apache Software Foundation (http://www.apache.org/).
-
-N.B. Unfortunately versions of this document prior to 2013-01-30 (r1440650) were incorrect, as they used the phrase:
-"developed by" instead of "developed at".
-The official wording was established in section 6C of the
-[board minutes for May 24 2006](http://www.apache.org/foundation/records/minutes/2006/board_minutes_2006_05_24.txt)
+See also [section 4(d)](licenses/LICENSE-2.0.html#redistribution) of the
+Apache License 2.0.
 
 ### License Headers ### {#license-headers}
 
