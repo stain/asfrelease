@@ -130,9 +130,7 @@ File extensions SHOULD NOT be used -- i.e. the files SHOULD be named exactly
 
 In short, only one copy of the license is needed per distribution. This
 full license file should be placed at the root of the distribution in a
-file named LICENSE. For software developed at the ASF, each source file
-need only contain the [boilerplate
-notice](http://www.apache.org/legal/src-headers.html#headers).
+file named LICENSE.
 
 When an artifact contains code under several licenses, the LICENSE file
 should contain details of all these licenses. For each component which is
@@ -177,8 +175,9 @@ The official wording was established in section 6C of the
 
 ### License Headers ### {#license-headers}
 
-Source files which have been contributed to the ASF under the Apache License
-must contain the appropriate ASF License text.
+Source files consisting of works submitted directly to the ASF by the
+copyright owner or owner's agent must contain the appropriate [ASF license
+header](http://www.apache.org/legal/src-headers.html#headers).
 
 ## Release Distribution ## {#release-distribution}
 
