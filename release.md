@@ -106,7 +106,7 @@ source code release.
 ## Licensing ## {#licensing}
 
 Every ASF release **must** comply with ASF licensing policy. This
-requirement is of utmost importance and an audit should be performed before
+requirement is of the utmost importance and an audit should be performed before
 any full release is created. In particular, every artifact distributed must
 contain only [appropriately](/legal/resolved#category-a)
 [licensed](/legal/resolved#category-x) code.
