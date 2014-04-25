@@ -172,10 +172,6 @@ releases on `repository.apache.org` beside some convenience binaries.
 the distribution directory is required,
 while the repository system is an optional convenience.
 
-It is also necessary for the PMC to ensure that
-the source package is sufficient to build any binary artifacts associated
-with the release.
-
 ### Release Archival ## {#release-archival}
 
 All official releases MUST be archived permanently on archive.apache.org.
