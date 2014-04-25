@@ -37,11 +37,12 @@ Generically, a release is anything that is published beyond the group
 that owns it.  For an Apache project, that means any publication outside the
 developer community, defined as the subscribers to the product dev list.
 
-More narrowly, an official Apache release is one which has been approved in
-accordance with this policy by a PMC acting in its formal capacity as an arm
-of the Foundation.
+More narrowly, an official Apache release is one which has been endorsed as an
+"act of the Foundation" by a PMC.
 
 ## Release approval ## {#release-approval}
+
+Each PMC MUST obey the ASF requirements on approving any release.
 
 For a release vote to pass, a minimum of three positive votes and more
 positive than negative votes MUST be cast.  Releases may not be vetoed.
