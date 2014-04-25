@@ -164,8 +164,6 @@ artifacts from time to time.
 The PMC is responsible for the project distribution directory and MUST be able
 to account for its entire contents.
 
-A release isn't 'released' until the contents are in the project's
-distribution directory, which is a subdirectory of `www.apache.org/dist/`.
 in addition to the distribution directory, project that use maven or
 a related build tool sometimes place their
 releases on `repository.apache.org` beside some convenience binaries.
