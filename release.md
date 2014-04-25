@@ -128,6 +128,9 @@ File extensions SHOULD NOT be used -- i.e. the files SHOULD be named exactly
 
 ### The `LICENSE` file ### {#license-file}
 
+The `LICENSE` file MUST contain the full text of the [Apache License
+2.0](/licenses/LICENSE-2.0.txt).
+
 When an artifact contains code under several licenses, the LICENSE file
 should contain details of all these licenses. For each component which is
 not Apache licensed, details of the component should be appended to the LICENSE file.
