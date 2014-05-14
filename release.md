@@ -37,8 +37,8 @@ Generically, a release is anything that is published beyond the group
 that owns it.  For an Apache project, that means any publication outside the
 developer community, defined as the subscribers to the product dev list.
 
-If the general public is being instructed
-to download a package, then that package has been released.
+More narrowly, an official Apache release is one which has been endorsed as an
+"act of the Foundation" by a PMC.
 
 ## Release approval ## {#release-approval}
 
