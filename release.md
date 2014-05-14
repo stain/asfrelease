@@ -33,6 +33,12 @@ and the [design goals of this policy](mirrors).
 
 ## Definition of "release" ## {#release-definition}
 
+Releases are, by definition, anything that is published beyond the group
+that owns it. In our case, that means any publication outside the group of
+people on the product dev list. If the general public is being instructed
+to download a package, then that package has been released. Each PMC must
+obey the ASF requirements on [approving any release](#approving-a-release).
+
 ## Release approval ## {#release-approval}
 
 ## Publication ## {#publication}
