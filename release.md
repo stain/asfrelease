@@ -27,6 +27,44 @@ and the [design goals of this policy](mirrors).
 
 [TOC]
 
+----------------
+
+# Release Policy # {#policy}
+
+## Definition of "release" ## {#release-definition}
+
+## Release approval ## {#release-approval}
+
+## Publication ## {#publication}
+
+## Artifacts ## {#artifacts}
+
+### Source packages ### {#source-packages}
+
+### Release signing ### {#release-signing}
+
+### Compiled packages ### {#compiled-packages}
+
+## Licensing ## {#licensing}
+
+## Licensing Documentation ## {#licensing-documentation}
+
+### The `LICENSE` file ### {#license-file}
+
+### The `NOTICE` file ### {#notice-file}
+
+### License Headers ### {#license-headers}
+
+## Release Distribution ## {#release-distribution}
+
+### Release Archival ## {#release-archival}
+
+## Policy Changes ## {#policy-changes}
+
+## TODO
+
+----------------
+
 # Release Questions # {#releases}
 
 ## Why Do We Need a Foundation-Wide Policy? ## {#why}
