@@ -61,6 +61,8 @@ and the [design goals of this policy](mirrors).
 
 ## Policy Changes ## {#policy-changes}
 
+Changes to Release Policy must be approved by Legal Affairs.
+
 ## TODO
 
 ----------------
