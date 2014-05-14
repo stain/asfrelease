@@ -73,7 +73,7 @@ Formalize additional official policies and reference them from this policy:
 
 ----------------
 
-# Release Questions # {#releases}
+# Release FAQ # {#releases}
 
 ## Why Do We Need a Foundation-Wide Policy? ## {#why}
 
