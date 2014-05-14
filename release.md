@@ -44,11 +44,12 @@ More narrowly, an official Apache release is one which has been endorsed as an
 
 Each PMC MUST obey the ASF requirements on approving any release.
 
-Votes on whether a package is ready to be released use
-[majority approval](http://www.apache.org/foundation/glossary.html#MajorityApproval) --
-i.e., at least three PMC members must vote affirmatively
-for release, and there must be more positive than negative votes.
-Releases may not be vetoed. Before voting +1 PMC members are required
+For a release vote to pass, a minimum of three positive votes and more
+positive than negative votes MUST be cast.  Releases may not be vetoed.
+
+Votes cast by PMC members are binding.
+
+Before voting +1 PMC members are required
 to download the signed source code package, compile it as provided, and test the
 resulting executable on their own platform, along with also verifying that the
 package meets the requirements of the ASF policy on releases.
