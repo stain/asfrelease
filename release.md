@@ -65,6 +65,12 @@ Changes to Release Policy must be approved by Legal Affairs.
 
 ## TODO
 
+Formalize additional official policies and reference them from this policy:
+
+*   _ASF Licensing Policy_ (curated by Legal Affairs, applies to both released
+    and unreleased code)
+*   _ASF Release Distribution Policy_ (curated by Infrastructure)
+
 ----------------
 
 # Release Questions # {#releases}
