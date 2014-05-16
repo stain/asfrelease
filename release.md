@@ -51,16 +51,10 @@ Votes cast by PMC members are binding.  Projects MAY grant binding votes to
 other individuals after consultation with the Board.
 
 Before casting +1 binding votes, individuals are required
-to download the signed source code package, compile it as provided, and test the
-resulting executable on their own platform, along with also verifying that the
-package meets the requirements of the ASF policy on releases.
-
-Strictly speaking, releases must be **[verified](https://svn.apache.org/repos/private/committers/tools/releases/compare_dirs.pl)**
-on hardware owned and controlled by the committer.  That means hardware the
-committer has  physical possession and control of and exclusively full
-administrative/superuser access to.  That's because only such hardware is
-qualified to hold a PGP private key, and the release should be verified on the
-machine the private key lives on or on a machine as trusted as that.
+to download the signed source code package onto their own hardware, compile it
+as provided, and test the resulting executable on their own platform, along
+with also validating cryptographic signatures and verifying that the package
+meets the requirements of the ASF policy on releases.
 
 ## Publication ## {#publication}
 
