@@ -54,6 +54,8 @@ as provided, and test the resulting executable on their own platform, along
 with also validating cryptographic signatures and verifying that the package
 meets the requirements of the ASF policy on releases.
 
+Release votes SHOULD remain open for at least 72 hours.
+
 ## Publication ## {#publication}
 
 ## Artifacts ## {#artifacts}
