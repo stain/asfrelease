@@ -105,9 +105,7 @@ Every ASF release **must** comply with ASF licensing policy. This
 requirement is of utmost importance and an audit should be performed before
 any full release is created. In particular, every artifact distributed must
 contain only [appropriately](/legal/resolved#category-a)
-[licensed](/legal/resolved#category-x) code. More information can be found
-in the [foundation website](/) and in the [release
-licensing FAQ](#license).
+[licensed](/legal/resolved#category-x) code.
 
 ## Licensing Documentation ## {#licensing-documentation}
 
