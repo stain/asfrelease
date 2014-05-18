@@ -76,6 +76,10 @@ Release votes SHOULD remain open for at least 72 hours.
 
 ### License Headers ### {#license-headers}
 
+Source files consisting of works submitted directly to the ASF by the
+copyright owner or owner's agent must contain the appropriate [ASF license
+header](http://www.apache.org/legal/src-headers.html#headers).
+
 ## Release Distribution ## {#release-distribution}
 
 ### Release Archival ## {#release-archival}
