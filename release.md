@@ -78,8 +78,7 @@ access to the appropriate platform and tools.
 
 ### Release signing ### {#release-signing}
 
-The source package must be
-[cryptographically signed](/dev/release-signing.html) by the Release
+The source package must be cryptographically signed by the Release
 Manager with a detached signature; and that package together with its
 signature must be tested prior to voting +1 for release. Folks who vote +1
 for release may offer their own cryptographic signature to be concatenated
