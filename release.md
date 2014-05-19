@@ -94,8 +94,8 @@ are in the form of the source materials needed to make changes to the
 software being released. In some cases, binary/bytecode packages are also
 produced as a convenience to users that might not have the appropriate
 tools to build a compiled version of the source. In all such cases, the
-binary/bytecode package must have the same version number as the source
-release and may only add binary/bytecode files that are the result of
+binary/bytecode package MUST have the same version number as the source
+release and MUST only add binary/bytecode files that are the result of
 compiling that version of the source code release.
 
 ## Licensing ## {#licensing}
