@@ -83,8 +83,7 @@ access to the appropriate platform and tools.
 ### Release signing ### {#release-signing}
 
 All supplied packages MUST be cryptographically signed by the Release
-Manager with a detached signature; and that package together with its
-signature MUST be tested prior to voting +1 for release. Folks who vote +1
+Manager with a detached signature.  Folks who vote +1
 for release MAY offer their own cryptographic signature to be concatenated
 with the detached signature file (at the Release Manager's discretion)
 prior to release.
