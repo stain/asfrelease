@@ -132,10 +132,7 @@ with the release.
 
 ### Release Archival ## {#release-archival}
 
-`/www.apache.org/dist` is automatically archived. Therefore, a copy of an
-official release will already exist in the archives. To move a release to
-the archives, just delete the copy in `/www.apache.org/dist`. Remember to
-update any links from the download page.
+All official releases MUST be archived permanently on archive.apache.org.
 
 ## Policy Changes ## {#policy-changes}
 
