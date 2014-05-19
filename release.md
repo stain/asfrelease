@@ -116,6 +116,12 @@ The `LICENSE` file MUST contain the full text of the [Apache License
 
 ### The `NOTICE` file ### {#notice-file}
 
+The `NOTICE` file must conform to the requirements of [Apache licensing
+policy](http://apache.org/legal/src-headers.html#notice).
+
+See also [section 4(d)](licenses/LICENSE-2.0.html#redistribution) of the
+Apache License 2.0.
+
 ### License Headers ### {#license-headers}
 
 Source files consisting of works submitted directly to the ASF by the
