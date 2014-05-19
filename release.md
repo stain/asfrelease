@@ -62,8 +62,8 @@ Release votes SHOULD remain open for at least 72 hours.
 
 During the process of developing software and preparing a release, various
 packages are made available to the developer community for testing
-purposes. **Projects MUST NOT include any links on the project website that might
-encourage non-developers to download and use nightly builds, snapshots,
+purposes. **Projects MUST NOT take any action that might
+encourage non-developers to download or use nightly builds, snapshots,
 release candidates, or any other similar package.** The only people who are
 supposed to know about such packages are the people following the dev list
 (or searching its archives) and thus aware of the conditions placed on the
