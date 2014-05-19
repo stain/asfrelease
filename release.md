@@ -62,7 +62,7 @@ Release votes SHOULD remain open for at least 72 hours.
 
 During the process of developing software and preparing a release, various
 packages are made available to the developer community for testing
-purposes. **Do not include any links on the project website that might
+purposes. **Projects MUST NOT include any links on the project website that might
 encourage non-developers to download and use nightly builds, snapshots,
 release candidates, or any other similar package.** The only people who are
 supposed to know about such packages are the people following the dev list
@@ -73,16 +73,16 @@ package.
 
 ### Source packages ### {#source-packages}
 
-Every ASF release **must** contain a source package, which must be
+Every ASF release MUST contain a source package, which MUST be
 sufficient for a user to build and test the release provided they have
 access to the appropriate platform and tools.
 
 ### Release signing ### {#release-signing}
 
-The source package must be cryptographically signed by the Release
+The source package MUST be cryptographically signed by the Release
 Manager with a detached signature; and that package together with its
-signature must be tested prior to voting +1 for release. Folks who vote +1
-for release may offer their own cryptographic signature to be concatenated
+signature MUST be tested prior to voting +1 for release. Folks who vote +1
+for release MAY offer their own cryptographic signature to be concatenated
 with the detached signature file (at the Release Manager's discretion)
 prior to release.
 
@@ -101,7 +101,7 @@ compiling that version of the source code release.
 
 ## Licensing ## {#licensing}
 
-Every ASF release **must** comply with ASF licensing policy. This
+Every ASF release MUST comply with ASF licensing policy. This
 requirement is of utmost importance and an audit should be performed before
 any full release is created. In particular, every artifact distributed must
 contain only [appropriately](/legal/resolved#category-a)
