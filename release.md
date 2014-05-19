@@ -65,8 +65,7 @@ encourage non-developers to download and use nightly builds, snapshots,
 release candidates, or any other similar package.** The only people who are
 supposed to know about such packages are the people following the dev list
 (or searching its archives) and thus aware of the conditions placed on the
-package. If you find that the general public are downloading such test
-packages, then remove them.
+package.
 
 ## Artifacts ## {#artifacts}
 
