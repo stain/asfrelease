@@ -111,6 +111,9 @@ contain only [appropriately](/legal/resolved#category-a)
 
 ### The `LICENSE` file ### {#license-file}
 
+The `LICENSE` file MUST contain the full text of the [Apache License
+2.0](/licenses/LICENSE-2.0.txt).
+
 ### The `NOTICE` file ### {#notice-file}
 
 ### License Headers ### {#license-headers}
