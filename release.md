@@ -60,6 +60,9 @@ Release votes SHOULD remain open for at least 72 hours.
 
 ## Publication ## {#publication}
 
+Projects SHALL publish official releases and SHALL NOT publish unreleased
+materials outside the developer community.
+
 During the process of developing software and preparing a release, various
 packages are made available to the developer community for testing
 purposes. **Projects MUST NOT take any action that might
