@@ -42,8 +42,7 @@ More narrowly, an official Apache release is one which has been endorsed as an
 
 ## Release approval ## {#release-approval}
 
-Each PMC must
-obey the ASF requirements on [approving any release](#approving-a-release).
+Each PMC MUST obey the ASF requirements on approving any release.
 
 ## Publication ## {#publication}
 
