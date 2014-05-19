@@ -60,6 +60,16 @@ Release votes SHOULD remain open for at least 72 hours.
 
 ## Publication ## {#publication}
 
+During the process of developing software and preparing a release, various
+packages are made available to the developer community for testing
+purposes. **Do not include any links on the project website that might
+encourage non-developers to download and use nightly builds, snapshots,
+release candidates, or any other similar package.** The only people who are
+supposed to know about such packages are the people following the dev list
+(or searching its archives) and thus aware of the conditions placed on the
+package. If you find that the general public are downloading such test
+packages, then remove them.
+
 ## Artifacts ## {#artifacts}
 
 ### Source packages ### {#source-packages}
@@ -67,6 +77,15 @@ Release votes SHOULD remain open for at least 72 hours.
 ### Release signing ### {#release-signing}
 
 ### Compiled packages ### {#compiled-packages}
+
+The Apache Software Foundation produces open source software. All releases
+are in the form of the source materials needed to make changes to the
+software being released. In some cases, binary/bytecode packages are also
+produced as a convenience to users that might not have the appropriate
+tools to build a compiled version of the source. In all such cases, the
+binary/bytecode package must have the same version number as the source
+release and may only add binary/bytecode files that are the result of
+compiling that version of the source code release.
 
 ## Licensing ## {#licensing}
 
