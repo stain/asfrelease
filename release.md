@@ -116,6 +116,13 @@ contain only [appropriately](/legal/resolved#category-a)
 The `LICENSE` file MUST contain the full text of the [Apache License
 2.0](/licenses/LICENSE-2.0.txt).
 
+When a package contains code under several licenses, the `LICENSE` file
+should contain details of all these licenses. For each component which is not
+Apache licensed, details of the component should be appended to the `LICENSE`
+file.  The component license itself may also be appended, or it may be stored
+elsewhere in the package with a pointer to it from the `LICENSE` file, e.g.
+if the license is long.
+
 ### The `NOTICE` file ### {#notice-file}
 
 The `NOTICE` file must conform to the requirements of [Apache licensing
