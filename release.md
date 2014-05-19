@@ -76,7 +76,7 @@ package.
 
 ### Source packages ### {#source-packages}
 
-Every ASF release MUST contain a source package, which MUST be
+Every ASF release MUST contain one or more source packages, which MUST be
 sufficient for a user to build and test the release provided they have
 access to the appropriate platform and tools.
 
