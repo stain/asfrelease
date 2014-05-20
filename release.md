@@ -137,8 +137,10 @@ header](http://www.apache.org/legal/src-headers.html#headers).
 
 ## Release Distribution ## {#release-distribution}
 
-A release isn't 'released' until the contents are in the project's
-distribution directory, which is a subdirectory of `www.apache.org/dist/`.
+Once a release is approved, all artifacts MUST be uploaded to the project's
+subdirectory within the canonical Apache distribution channel,
+`www.apache.org/dist`.
+
 In addition to the distribution directory, project that use Maven or
 a related build tool sometimes place their
 releases on `repository.apache.org` beside some convenience binaries.
