@@ -102,10 +102,10 @@ compiling that version of the source code release.
 ## Licensing ## {#licensing}
 
 Every ASF release MUST comply with ASF licensing policy. This
-requirement is of utmost importance and an audit should be performed before
-any full release is created. In particular, every artifact distributed must
-contain only [appropriately](/legal/resolved#category-a)
-[licensed](/legal/resolved#category-x) code.
+requirement is of utmost importance and an audit SHOULD be performed before
+any full release is created.  In particular, every artifact distributed MUST
+contain only appropriately licensed code per [Apache Licensing
+Policy](/legal/resolved).
 
 ## Licensing Documentation ## {#licensing-documentation}
 
