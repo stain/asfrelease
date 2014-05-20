@@ -139,6 +139,14 @@ header](http://www.apache.org/legal/src-headers.html#headers).
 
 ## Release Distribution ## {#release-distribution}
 
+A release isn't 'released' until the contents are in the project's
+distribution directory, which is a subdirectory of `www.apache.org/dist/`.
+In addition to the distribution directory, project that use Maven or
+a related build tool sometimes place their
+releases on `repository.apache.org` beside some convenience binaries.
+The distribution directory is required,
+while the repository system is an optional convenience.
+
 Note that the PMC is responsible for all artifacts in their distribution
 directory, which is a subdirectory of `www.apache.org/dist/` ; and all
 artifacts placed in their directory must be signed by a committer,
