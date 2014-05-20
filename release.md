@@ -148,9 +148,7 @@ through other channels.
 Note that the PMC is responsible for all artifacts in their distribution
 directory, which is a subdirectory of `www.apache.org/dist/` ; and all
 artifacts placed in their directory must be signed by a committer,
-preferably by a PMC member. It is also necessary for the PMC to ensure that
-the source package is sufficient to build any binary artifacts associated
-with the release.
+preferably by a PMC member.
 
 ### Release Archival ## {#release-archival}
 
