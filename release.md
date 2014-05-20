@@ -111,14 +111,12 @@ contain only [appropriately](/legal/resolved#category-a)
 
 ## Licensing Documentation ## {#licensing-documentation}
 
-ASF releases typically contain additional material together with the source
-package. This material may include documentation concerning the release but
-must contain LICENSE and NOTICE files.
+Each package MUST provide a `LICENSE` file and a `NOTICE` file.
 
-For example, the Java artifact format is based on a
-compressed directory structure and those projects wishing to distribute
-jars must place LICENSE and NOTICE files in the META-INF directory within
-the jar.
+For source packages, `LICENSE` and `NOTICE` MUST be located at the root of the
+distribution.  For additional packages, they MUST be located in the
+distribution format's customary location for licensing materials, such as the
+`META-INF` directory of Java "jar" files.
 
 ### The `LICENSE` file ### {#license-file}
 
