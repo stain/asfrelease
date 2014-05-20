@@ -109,7 +109,10 @@ contain only [appropriately](/legal/resolved#category-a)
 
 ## Licensing Documentation ## {#licensing-documentation}
 
-Each package MUST provide a `LICENSE` file and a `NOTICE` file.
+Each package MUST provide a `LICENSE` file and a `NOTICE` file which account
+for the package's exact content.  `LICENSE` and `NOTICE` MUST NOT provide
+unnecessary information about materials which are not bundled in the package,
+such as separately downloaded dependencies.
 
 For source packages, `LICENSE` and `NOTICE` MUST be located at the root of the
 distribution.  For additional packages, they MUST be located in the
