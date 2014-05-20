@@ -141,11 +141,9 @@ Once a release is approved, all artifacts MUST be uploaded to the project's
 subdirectory within the canonical Apache distribution channel,
 `www.apache.org/dist`.
 
-In addition to the distribution directory, project that use Maven or
-a related build tool sometimes place their
-releases on `repository.apache.org` beside some convenience binaries.
-The distribution directory is required,
-while the repository system is an optional convenience.
+After uploading to the canonical distribution channel, the project (or anyone
+else) MAY redistribute the artifacts in accordance with their licensing
+through other channels.
 
 Note that the PMC is responsible for all artifacts in their distribution
 directory, which is a subdirectory of `www.apache.org/dist/` ; and all
