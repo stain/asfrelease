@@ -143,14 +143,13 @@ Once a release is approved, all artifacts MUST be uploaded to the project's
 subdirectory within the canonical Apache distribution channel,
 `www.apache.org/dist`.
 
+The PMC is responsible for the project distribution directory and MUST be able
+to account for its entire contents.  All artifacts within the directory MUST
+be signed by a committer, preferably a PMC member.
+
 After uploading to the canonical distribution channel, the project (or anyone
 else) MAY redistribute the artifacts in accordance with their licensing
 through other channels.
-
-Note that the PMC is responsible for all artifacts in their distribution
-directory, which is a subdirectory of `www.apache.org/dist/` ; and all
-artifacts placed in their directory must be signed by a committer,
-preferably by a PMC member.
 
 ### Release Archival ## {#release-archival}
 
