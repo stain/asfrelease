@@ -152,8 +152,8 @@ subdirectory within the canonical Apache distribution channel,
 `www.apache.org/dist`.
 
 The PMC is responsible for the project distribution directory and MUST be able
-to account for its entire contents.  All artifacts within the directory MUST
-be signed by a committer, preferably a PMC member.
+to account for its entire contents.  All release artifacts within the
+directory MUST be signed by a committer, preferably a PMC member.
 
 After uploading to the canonical distribution channel, the project (or anyone
 else) MAY redistribute the artifacts in accordance with their licensing
