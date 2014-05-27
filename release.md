@@ -48,7 +48,7 @@ For a release vote to pass, a minimum of three positive votes and more
 positive than negative votes MUST be cast.  Releases may not be vetoed.
 Votes cast by PMC members are binding.
 
-Before casting +1 binding votes, individuals are required
+Before casting +1 binding votes, individuals are REQUIRED
 to download the signed source code package onto their own hardware, compile it
 as provided, and test the resulting executable on their own platform, along
 with also validating cryptographic signatures and verifying that the package
