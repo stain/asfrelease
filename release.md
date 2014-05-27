@@ -48,11 +48,11 @@ For a release vote to pass, a minimum of three positive votes and more
 positive than negative votes MUST be cast.  Releases may not be vetoed.
 Votes cast by PMC members are binding.
 
-Before casting +1 binding votes, individuals are REQUIRED
-to download the signed source code package onto their own hardware, compile it
-as provided, and test the resulting executable on their own platform, along
-with also validating cryptographic signatures and verifying that the package
-meets the requirements of the ASF policy on releases.
+Before casting +1 binding votes, individuals are REQUIRED to download all
+signed source code packages onto their own hardware, verify that they meet all
+requirements of ASF policy on releases as described below, validate all
+cryptographic signatures, compile as provided, and test the result on their
+own platform.
 
 Release votes SHOULD remain open for at least 72 hours.
 
