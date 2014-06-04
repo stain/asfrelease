@@ -163,9 +163,13 @@ through other channels.
 
 All official releases MUST be archived permanently on archive.apache.org.
 
-## Policy Changes ## {#policy-changes}
+## Release Policy Administration ## {#administration}
 
-Changes to Release Policy must be approved by Legal Affairs.
+Projects MUST notify the Board of Directors of any deviations from recommended
+or required policy directives.
+
+The primary venue for discussing this policy is dev@community.apache.org.
+Modifications are subject to review by the Board.
 
 ## TODO
 
