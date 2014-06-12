@@ -163,8 +163,11 @@ through other channels.
 
 All official releases MUST be archived permanently on archive.apache.org.
 
-## Policy Changes ## {#policy-changes}
+## Release Policy Administration ## {#administration}
 
+Projects MUST notify the Board of Directors of any deviations from recommended
+or required policy directives.
+ 
 Changes to Release Policy must be approved by Legal Affairs.
 
 ## TODO
