@@ -97,7 +97,7 @@ compiled version of the source, binary/bytecode packages MAY be distributed
 alongside official Apache releases.  In all such cases, the
 binary/bytecode package MUST have the same version number as the source
 release and MUST only add binary/bytecode files that are the result of
-compiling that version of the source code release.
+compiling that version of the source code release and its dependencies.
 
 ## Licensing ## {#licensing}
 
