@@ -166,8 +166,11 @@ All official releases MUST be archived permanently on archive.apache.org.
 (Uploading to the canonical distribution channel satisfies this requirement
 because archival happens automatically as a side effect.)
 
-## Policy Changes ## {#policy-changes}
+## Release Policy Administration ## {#administration}
 
+Projects MUST notify the Board of Directors of any deviations from recommended
+or required policy directives.
+ 
 Changes to Release Policy must be approved by Legal Affairs.
 
 ## TODO
